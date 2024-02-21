@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body1 {
+    background: url("./assets/img/chef.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+.heading{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 2px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.containerchef {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+.border:hover {
+    border: 1px solid #fff;
+}
+.card1 {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card10 {
+    background: url("./assets/img/chef\ pillai.jpg")
+        center center no-repeat;
+    background-size: 380px;
+
+}
+.card10:hover {
+    background: url("./assets/img/chef\ pillai.jpg")
+        right center no-repeat;
+    background-size: 600px;
+   
+}
+.card10:hover h2 {
+    opacity: 1;
+}
+.card10:hover .fa {
+    opacity: 1;
+}
+.card2 {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card20 {
+    background: url("./assets/img/Vikas\ Khanna.webp")
+        center center no-repeat;
+    background-size: 380px;
+
+}
+.card20:hover {
+    background: url("./assets/img/Vikas\ Khanna.webp")
+        top center no-repeat;
+    background-size: 600px;
+   
+}
+.card20:hover h2 {
+    opacity: 1;
+}
+.card20:hover .fa {
+    opacity: 1;
+}
+.card3 {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card30 {
+    background: url("./assets/img/Latha\ K.jpg")
+        center center no-repeat;
+    background-size: 380px;
+
+}
+.card30:hover {
+    background: url("./assets/img/Latha\ K.jpg")
+        top center no-repeat;
+    background-size: 600px;
+   
+}
+.card30:hover h2 {
+    opacity: 1;
+}
+.card30:hover .fa {
+    opacity: 1;
+}
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.h2Latha {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: whitesmoke;
+    margin: 20px;
+    opacity: 0;
+    font-weight: bolder;
+    transition: opacity 1s;
+    
+}
+.fa {
+    opacity: 0;
+    transition: opacity 1s;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.fa:hover{
+    color: white;
+}
+
+.icons {
+    position: absolute;
+    fill: #374101;
+    color: #374101;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.icons1 {
+    position: absolute;
+    fill: #374101;
+    color: white;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
